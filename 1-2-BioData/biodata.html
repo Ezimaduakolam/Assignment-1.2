@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../BioData/biodata.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Bio Data</title>
+    </head>
+    <body>
+        <label for="fhead" id="blabel">Bio Data</label>
+        <form id="fhead">
+            <span id="name">
+                <input required type="text" placeholder="First name"/>
+                <input required type="text" placeholder="Last name"/>
+            </span>
+            <input required type="email" placeholder="Email address"/>
+            <input required type="number" placeholder="Phone number"/>
+            <input required type="text" placeholder="Occupation"/>
+            <input required type="date" placeholder="Date of Birth"/>
+            <input required type="text" placeholder="Class"/>
+            <br>
+                <label for="gdr">Gender:</label>
+                <span id="gdr">
+                    <input type="radio" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female">Female</label>
+                </span>
+            <br>
+            <br>
+                <label for="hobs">Hobbies:</label>
+                <span id="hobs">
+                    <input type="checkbox" name="hobbies" value="swimming"/>
+                    <label for="a">Swimming</label><br>
+                    <input type="checkbox" name="hobbies" value="dancing">
+                    <label for="b">Dancing</label><br>
+                    <input type="checkbox" name="hobbies" value="eating">
+                    <label for="c">Eating</label><br>
+                    <input type="checkbox" name="hobbies" value="reading"/>
+                    <label for="a">Reading</label><br>
+                    <input type="checkbox" name="hobbies" value="teaching">
+                    <label for="b">Teaching</label><br>
+                    <input type="checkbox" name="hobbies" value="travelling">
+                    <label for="c">Travelling</label><br>
+                </span>
+            <br>
+            <input required type="password" placeholder="password"/> 
+            <br>
+                <label for="iden">Attach your means of identification:</label>
+                <span id="iden">
+                    <input required type="file"/>
+                </span>  
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
